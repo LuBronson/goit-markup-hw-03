@@ -40,6 +40,10 @@ ul {
     list-style-type: none;
 }
 
+.img {
+    display: block;
+}
+
 .list {
     list-style: none;
 }
