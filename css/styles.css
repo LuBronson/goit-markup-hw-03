@@ -10,13 +10,26 @@ body {
     font-family: "Roboto", sans-serif;
     background: #FFFFFF;
     min-height: 100vh;
-    color: #434455
+    color: #434455;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-main {}
+.container {
+    width: 1440px;
+}
+
+main {
+    flex-grow: 1;
+
+    width: 1440px;
+}
 
 header {
     background: #FFFFFF;
+    display: flex;
+    border-bottom: 1px solid #E7E9FC;
 }
 
 a {
@@ -67,6 +80,21 @@ ul {
     color: var(--navbar-color);
 }
 
+.nav-block {
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 156px;
+}
+
+.nav-list {
+    margin: 0;
+    display: flex;
+    gap: 40px;
+    margin-left: 76px;
+    padding: 0;
+}
+
 .nav-link {
     font-weight: 500;
     font-size: 16px;
@@ -85,6 +113,16 @@ ul {
 
 .contacts {
     font-style: normal;
+    margin-left: 332px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.contacts-list {
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    padding-left: 0;
 }
 
 .contacts-link {
@@ -113,9 +151,18 @@ ul {
 /* 1 Section Title block */
 .title-block {
     background: #2E2F42;
+    align-items: center;
+    margin: 0px;
+    height: 600px;
 }
 
 .title-text {
+    display: flex;
+    padding-top: 188px;
+    margin-top: 0px;
+    padding-left: 472px;
+    padding-right: 472px;
+
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
@@ -123,6 +170,7 @@ ul {
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    margin-bottom: 48px;
 }
 
 .title-button {
@@ -135,6 +183,11 @@ ul {
     background-color: var(--primary-brand-color);
     font-style: normal;
     line-height: 1.5;
+
+    width: 169px;
+    height: 56px;
+    margin-bottom: 188px;
+    margin-left: 636px;
 }
 
 .title-button:hover {
@@ -150,7 +203,9 @@ ul {
 }
 
 /* 2 Section about */
-.about {}
+.about {
+    display: flex;
+}
 
 .section-about-title {
     font-weight: 500;
@@ -160,6 +215,16 @@ ul {
     color: var(--navbar-color);
 }
 
+.section-about-list {
+    display: flex;
+    padding-top: 120px;
+    padding-left: 156px;
+    padding-right: 156px;
+    gap: 22px;
+    margin: 0;
+}
+
+
 
 .section-about-item {
     font-weight: 500;
@@ -167,33 +232,56 @@ ul {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navbar-color);
+    margin: 0px;
+    margin-bottom: 8px;
+    padding: 0px;
+
 }
 
 .section-about-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--navbar-contacts-color)
+    color: var(--navbar-contacts-color);
+    margin-top: 8px;
+    margin-bottom: 0;
+    margin: 0;
+    padding: 0;
 }
 
 /* 3 Section work */
 
-.work {}
+.work {
+    margin-top: 120px;
+
+    margin-left: 156px;
+}
 
 .section-work-title {
-    justify-content: center;
+    padding-left: 403px;
     font-weight: 700;
     font-size: 36px;
-    text-align: center;
     text-transform: capitalize;
     color: var(--navbar-color);
     line-height: 1.11;
     letter-spacing: 0.02em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+.section-work-list {
+    display: flex;
+    gap: 24px;
+    margin-left: 0px;
+    padding-left: 0;
+    margin-top: 72px;
 }
 
 /* 4 Section Team */
-.section-team {
+.team {
     background-color: #F4F4FD;
+    margin-top: 120px;
 }
 
 .section-team-title {
@@ -205,13 +293,29 @@ ul {
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
-    text-transform: capitalize
+    text-transform: capitalize;
+    padding-top: 120px;
+    margin: 0;
+
+}
+
+.team-list {
+    display: flex;
+    gap: 24px;
+    margin-top: 72px;
+    justify-content: center;
+    padding-left: 0px;
+    padding-bottom: 120px;
+    margin-bottom: 0;
+
 }
 
 .team-card {
     text-align: center;
     background: #FFFFFF;
-
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-card-name {
@@ -222,12 +326,16 @@ ul {
     text-align: center;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-top: 32px;
+    margin-bottom: 8px;
 }
 
 .team-card-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-top: 0;
+    padding-bottom: 32px;
 }
 
 /*=============================================
@@ -235,6 +343,12 @@ ul {
 =============================================*/
 .footer {
     background: #2E2F42;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer-logo {
+    margin-left: 156px;
 }
 
 .footer-logo-studio {
@@ -244,12 +358,26 @@ ul {
 .footer-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--footer-text-color)
+    color: var(--footer-text-color);
+    margin-right: 1020px;
+    margin-left: 156px;
 }
 
 /*=============================================
 =               Portfolio page                =
 =============================================*/
+
+.porfolio-section {}
+
+.button-list {
+    display: flex;
+    margin-top: 96px;
+    padding-left: 0;
+    margin-left: 427px;
+    gap: 24px;
+    margin-bottom: 72px;
+}
+
 
 .filter-button {
     font-family: "Roboto", sans-serif;
@@ -260,6 +388,13 @@ ul {
     color: var(--primary-brand-color);
     background-color: var(--footer-text-color);
     cursor: pointer;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 24px;
 }
 
 .filter-button:hover {
@@ -276,12 +411,34 @@ ul {
     color: #FFFFFF;
 }
 
+.project-card-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 156px;
+    gap: 48px 24px;
+    margin-bottom: 120px;
+    padding-left: 0;
+}
+
+.project-card-item {
+    background: #FFFFFF;
+    border: 1px solid #E7E9FC;
+    border-top: none;
+}
+
+.card-border {
+    border: 1px solid #E7E9FC;
+}
+
 .project-card-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-left: 16px;
+    margin-top: 32px;
+    margin-bottom: 8px;
 }
 
 .project-card-text {
@@ -289,4 +446,7 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    padding-left: 16px;
+    margin-top: 0;
+    margin-bottom: 32px;
 }
