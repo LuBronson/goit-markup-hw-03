@@ -1,0 +1,292 @@
+:root {
+    --primary-brand-color: #4D5AE5;
+    --navbar-color: #2E2F42;
+    --navbar-contacts-color: #434455;
+    --footer-text-color: #F4F4FD;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-family: "Roboto", sans-serif;
+    background: #FFFFFF;
+    min-height: 100vh;
+    color: #434455
+}
+
+main {}
+
+header {
+    background: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #404bbf
+}
+
+.link:active {
+    color: #404bbf;
+}
+
+.link:focus {
+    color: #404bbf;
+}
+
+
+/*=============================================
+=                   header                    =
+=============================================*/
+
+.logo {
+    color: var(--primary-brand-color);
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+
+.header-logo-studio {
+    color: var(--navbar-color);
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navbar-color);
+}
+
+.nav-link:hover {
+    color: #404bbf
+}
+
+.nav-link:active {
+    color: #404bbf
+}
+
+.contacts {
+    font-style: normal;
+}
+
+.contacts-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navbar-contacts-color);
+}
+
+.contacts-link:hover {
+    color: #404bbf;
+}
+
+.contacts-link:active {
+    color: #404bbf;
+}
+
+.contacts-link:focus {
+    color: #404bbf;
+}
+
+/*=============================================
+=                    main                     =
+=============================================*/
+
+/* 1 Section Title block */
+.title-block {
+    background: #2E2F42;
+}
+
+.title-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.title-button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    cursor: pointer;
+    background-color: var(--primary-brand-color);
+    font-style: normal;
+    line-height: 1.5;
+}
+
+.title-button:hover {
+    background-color: #404BBF;
+}
+
+.title-button:active {
+    background-color: #404BBF;
+}
+
+.title-button:focus {
+    background-color: #404BBF;
+}
+
+/* 2 Section about */
+.about {}
+
+.section-about-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navbar-color);
+}
+
+
+.section-about-item {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navbar-color);
+}
+
+.section-about-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navbar-contacts-color)
+}
+
+/* 3 Section work */
+
+.work {}
+
+.section-work-title {
+    justify-content: center;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--navbar-color);
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+}
+
+/* 4 Section Team */
+.section-team {
+    background-color: #F4F4FD;
+}
+
+.section-team-title {
+    color: #2E2F42;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize
+}
+
+.team-card {
+    text-align: center;
+    background: #FFFFFF;
+
+}
+
+.team-card-name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.team-card-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/*=============================================
+=                   footer                    =
+=============================================*/
+.footer {
+    background: #2E2F42;
+}
+
+.footer-logo-studio {
+    color: #f4f4fd
+}
+
+.footer-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--footer-text-color)
+}
+
+/*=============================================
+=               Portfolio page                =
+=============================================*/
+
+.filter-button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--primary-brand-color);
+    background-color: var(--footer-text-color);
+    cursor: pointer;
+}
+
+.filter-button:hover {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+.filter-button:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+.filter-button:active {
+    color: #FFFFFF;
+}
+
+.project-card-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.project-card-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
