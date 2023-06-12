@@ -65,6 +65,10 @@ ul {
 =                   header                    =
 =============================================*/
 
+.header-container {
+    display: flex;
+}
+
 .logo {
     color: var(--primary-brand-color);
     font-family: "Raleway", sans-serif;
