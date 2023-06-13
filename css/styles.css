@@ -74,6 +74,7 @@ img {
     display: flex;
     padding-right: 0;
     padding-left: 0;
+    padding: 0 15px;
 }
 
 
@@ -222,7 +223,10 @@ img {
 }
 
 /* 2 Section about */
-.about {}
+
+.about {
+    padding: 120px 0;
+}
 
 .section-about-title {
     font-weight: 500;
@@ -230,8 +234,15 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navbar-color);
+
 }
 
+.section-list {
+    display: flex;
+    gap: 22px;
+    max-height: 104px;
+    padding-left: 0;
+}
 
 .section-about-item {
     font-weight: 500;
@@ -239,13 +250,14 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navbar-color);
+    margin-bottom: 8px;
 }
 
 .section-about-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--navbar-contacts-color)
+    color: var(--navbar-contacts-color);
 }
 
 /* 3 Section work */
