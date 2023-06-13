@@ -309,7 +309,6 @@ img {
 /* 4 Section Team */
 .section-team {
     padding: 120px 0;
-    ;
 }
 
 .our-team-container {
@@ -344,7 +343,7 @@ img {
 .team-list-item {
     text-align: center;
     background: #FFFFFF;
-    width: calc((100% - 72)/4);
+    width: calc((100% - 72px)/4);
     border-radius: 0px 0px 4px 4px;
 }
 
