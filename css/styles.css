@@ -242,7 +242,7 @@ img {
     padding: 120px 0;
 }
 
-.section-about-title {
+.about-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -262,7 +262,7 @@ img {
     width: calc((100% - 72px) / 4);
 }
 
-.section-about-item {
+.section-about-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -280,25 +280,44 @@ img {
 
 /* 3 Section work */
 
-.work {}
+.work {
+    padding-bottom: 120px;
+}
 
 .section-work-title {
-    justify-content: center;
     font-weight: 700;
     font-size: 36px;
-    text-align: center;
     text-transform: capitalize;
     color: var(--navbar-color);
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 72px;
+    margin-top: 0;
+}
+
+.work-list {
+    display: flex;
+    gap: 24px;
+    padding-left: 0;
+}
+
+.work-list-item {
+    width: calc((100% - 48px)/3);
 }
 
 /* 4 Section Team */
 .section-team {
-    background-color: #F4F4FD;
+    padding: 120px 0;
+    ;
 }
 
-.section-team-title {
+.our-team-container {
+    background-color: #F4F4FD;
+    min-width: 1440px;
+}
+
+.team-title {
     color: #2E2F42;
     font-family: 'Roboto';
     font-style: normal;
@@ -307,16 +326,33 @@ img {
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
-    text-transform: capitalize
+    text-transform: capitalize;
+
+    margin-bottom: 72px;
+    padding-top: 120px;
 }
 
-.team-card {
+.team-list {
+    display: flex;
+    gap: 24px;
+    padding-bottom: 120px;
+    margin-left: 156px;
+    padding-left: 0;
+
+}
+
+.team-list-item {
     text-align: center;
     background: #FFFFFF;
-
+    width: calc((100% - 72)/4);
+    border-radius: 0px 0px 4px 4px;
 }
 
-.team-card-name {
+.team-card-container {
+    padding: 32px 16px;
+}
+
+.team-list-name {
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -324,12 +360,16 @@ img {
     text-align: center;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 8px;
+    margin-top: 0;
 }
 
-.team-card-text {
+.team-list-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
+    margin: 0;
 }
 
 /*=============================================
