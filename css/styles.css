@@ -17,8 +17,9 @@ body {
 }
 
 .container {
-    width: 1158px;
+    width: 1440;
     padding: 0 15px;
+    margin: 0 auto;
 }
 
 main {
@@ -71,6 +72,11 @@ img {
 
 .header-container {
     display: flex;
+    max-width: 1440px;
+    max-height: 72px;
+    margin: 0 auto;
+    flex-direction: row;
+    align-items: center;
 }
 
 .logo {
@@ -82,17 +88,16 @@ img {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    margin-right: 76px;
 }
 
 .header-logo-studio {
     color: var(--navbar-color);
-    margin-right: 76px;
+
 }
 
 .nav-block {
     display: flex;
-    padding-top: 24px;
-    padding-left: 156px;
     align-items: center;
 }
 
@@ -100,8 +105,9 @@ img {
     margin: 0;
     display: flex;
     gap: 40px;
-    margin-right: 76px;
+    margin-right: 332px;
     padding: 24px 0;
+
 }
 
 .nav-link {
@@ -110,6 +116,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--navbar-color);
+    padding: 24px 0
 }
 
 .nav-link:hover {
@@ -121,10 +128,8 @@ img {
 }
 
 .contacts {
+    display: flex;
     font-style: normal;
-    margin-left: 332px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .contacts-list {
@@ -162,7 +167,7 @@ img {
     background: #2E2F42;
     align-items: center;
     margin: 0px;
-    height: 600px;
+    padding: 188px 0;
 }
 
 .title-text {
@@ -180,6 +185,7 @@ img {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-bottom: 48px;
+    max-width: 496px;
 }
 
 .title-button {
@@ -193,10 +199,12 @@ img {
     font-style: normal;
     line-height: 1.5;
 
-    width: 169px;
+    display: block;
+    min-width: 169px;
     height: 56px;
     margin-bottom: 188px;
     margin-left: 636px;
+    border-radius: 4px;
 }
 
 .title-button:hover {
@@ -222,6 +230,8 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navbar-color);
+
+
 }
 
 .section-about-list {
