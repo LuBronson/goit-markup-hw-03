@@ -280,7 +280,9 @@ img {
 
 /* 3 Section work */
 
-.work {}
+.work {
+    padding-bottom: 120px;
+}
 
 .section-work-title {
     font-weight: 700;
@@ -306,12 +308,12 @@ img {
 
 /* 4 Section Team */
 .team {
+    width: 1440px;
     padding: 120px 0;
-    padding-bottom: 0px;
+    background-color: #F4F4FD;
 }
 
 .our-team-container {
-    background-color: #F4F4FD;
     min-width: 1440px;
     padding: 0;
 }
@@ -328,7 +330,6 @@ img {
     text-transform: capitalize;
     color: #2E2F42;
     margin-bottom: 72px;
-    padding-top: 120px;
 }
 
 .team-list {
