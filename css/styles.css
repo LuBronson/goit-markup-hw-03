@@ -17,7 +17,8 @@ body {
 }
 
 .container {
-    width: 1440px;
+    width: 1158px;
+    padding: 0 15px;
 }
 
 main {
@@ -39,7 +40,7 @@ ul {
     list-style-type: none;
 }
 
-.img {
+img {
     display: block;
 }
 
@@ -85,21 +86,22 @@ ul {
 
 .header-logo-studio {
     color: var(--navbar-color);
+    margin-right: 76px;
 }
 
 .nav-block {
     display: flex;
     padding-top: 24px;
-    padding-bottom: 24px;
     padding-left: 156px;
+    align-items: center;
 }
 
 .nav-list {
     margin: 0;
     display: flex;
     gap: 40px;
-    margin-left: 76px;
-    padding: 0;
+    margin-right: 76px;
+    padding: 24px 0;
 }
 
 .nav-link {
