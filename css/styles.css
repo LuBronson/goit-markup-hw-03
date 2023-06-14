@@ -16,6 +16,18 @@ body {
 
 main {}
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+p {
+    margin: 0;
+}
+
 header {
     background: #FFFFFF;
 }
@@ -68,7 +80,8 @@ img {
 =============================================*/
 
 .header {
-    border-bottom: 1px solid #e7e9fc
+    border-bottom: 1px solid #e7e9fc;
+    padding: 24px 0;
 }
 
 .header-container {
@@ -186,7 +199,7 @@ img {
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-
+    padding-bottom: 48px;
     max-width: 496px;
 }
 
@@ -308,14 +321,8 @@ img {
 
 /* 4 Section Team */
 .team {
-    width: 1440px;
     padding: 120px 0;
     background-color: #F4F4FD;
-}
-
-.our-team-container {
-    min-width: 1440px;
-    padding: 0;
 }
 
 
@@ -337,8 +344,7 @@ img {
     gap: 24px;
 
     padding-left: 0;
-    margin-left: 156px;
-    margin-right: 156px;
+
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -380,6 +386,17 @@ img {
 .footer {
     background: #2E2F42;
     padding: 100px 0;
+}
+
+.footer-logo {
+    color: var(--primary-brand-color);
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 
 .footer-logo-studio {
