@@ -178,16 +178,13 @@ img {
 .title-block {
     background: #2E2F42;
     padding: 188px 0;
-    max-width: 1440px;
 }
 
 .title-container {
-    margin: 0;
     padding: 0;
     max-width: 496px;
     align-items: center;
-    margin-left: 472px;
-
+    margin: 0 auto;
 }
 
 .title-text {
@@ -201,6 +198,7 @@ img {
     color: #FFFFFF;
     padding-bottom: 48px;
     max-width: 496px;
+
 }
 
 .title-button {
